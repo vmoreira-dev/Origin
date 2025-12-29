@@ -23,7 +23,7 @@ Projects are displayed as complete systems, with focus on layout, spacing, and v
 
 ---
 
-## Execution
+## Stack
 
 - Next.js (App Router)  
 - React  
