@@ -9,8 +9,8 @@
 Origin is a personal portfolio built to present finished work.  
 Projects are displayed as complete systems, with focus on layout, spacing, and visual control.
 
-View https://vmoreira.dev
 
+[View](https://vmoreira.dev)
 ---
 
 ## Design
