@@ -1,6 +1,6 @@
 # Origin
 
-![Origin — Portfolio UI](./public/assets/showcase.webp)
+![Origin — Portfolio UI](./public/assets/showcase_5_4.webp)
 
 ---
 
