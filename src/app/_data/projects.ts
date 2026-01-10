@@ -8,7 +8,7 @@ export const projects = [
   {
     title: "Aether",
     tagline: "Turn raw transactions into decisions",
-    image: "/images/projects/aether.png",
+    image: "/images/projects/aether.webp",
     href: "https://aether.vmoreira.dev",
   },
   {
