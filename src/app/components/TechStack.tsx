@@ -26,9 +26,14 @@ export default function TechStack() {
   return (
     <div className="mt-12 flex items-center justify-center gap-9">
       <TechIcon src="/images/tech/next.svg" />
+      <TechIcon src="/images/tech/react.svg" />
       <TechIcon src="/images/tech/typescript.svg" />
       <TechIcon src="/images/tech/tailwind.svg" />
-      <TechIcon src="/images/tech/node.svg" />
+      <TechIcon src="/images/tech/prisma.svg" />
+      <TechIcon src="/images/tech/postgresql.svg" />
     </div>
   );
 }
+
+
+
