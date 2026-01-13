@@ -14,11 +14,10 @@ Origin is a portfolio for presenting finished projects as complete, self-contain
 
 ## Design
 
-- Large areas of empty space separate sections
-- Projects are presented one at a time
-- Layout stays fixed as content changes
-- Motion is limited to hover and transitions
-- No visual elements compete with project previews
+- Wide margins and empty space isolate content
+- Projects are shown one at a time as primary surfaces
+- Motion appears only during interaction
+
 
 
 ---
