@@ -1,16 +1,18 @@
 export const projects = [
-  {
-    title: "Horizon",
-    tagline: "Task clarity without distraction",
-    image: "/images/projects/horizon.webp",
-    href: "https://horizon.vmoreira.dev",
-  },
+
   {
     title: "Aether",
     tagline: "Turn raw transactions into decisions",
     image: "/images/projects/aether.webp",
     href: "https://aether.vmoreira.dev",
   },
+   {
+    title: "Horizon",
+    tagline: "Task clarity without distraction",
+    image: "/images/projects/horizon.webp",
+    href: "https://horizon.vmoreira.dev",
+  },
+
   {
     title: "Mercuria",
     tagline: "Commerce designed not assembled",

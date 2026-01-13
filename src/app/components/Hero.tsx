@@ -1,50 +1,51 @@
 // app/components/Hero.tsx
 import TechStack from "./TechStack";
 
-
 export default function Hero() {
   return (
     <section className="flex flex-col items-center pt-32 pb-28 text-center">
+      {/* Name */}
       <h1 className="text-5xl md:text-6xl font-semibold tracking-tight text-slate-900">
         Vinicius Moreira
       </h1>
 
-      <p className="text-lg md:text-xl mt-4 text-slate-600">
-        FULL-STACK DEVELOPER
+      {/* Role */}
+      <p className="mt-4 text-sm md:text-base tracking-[0.2em] text-slate-500">
+        FULL-STACK ENGINEER
       </p>
 
       {/* Buttons */}
       <div className="mt-12 flex items-center gap-6">
+        {/* Primary CTA */}
         <a
           href="#projects"
           className="
             px-10 py-3 rounded-xl
-            bg-white/70 backdrop-blur-md
-            border border-black/10
-            text-slate-900
+            bg-white
+            border border-slate-300
+            text-slate-900 text-sm font-medium tracking-wide
+            shadow-[0_1px_0_rgba(0,0,0,0.06)]
             transition-all duration-300
-            hover:bg-white
-            hover:border-black/20
-            hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)]
+            hover:-translate-y-0.5
+            hover:shadow-[0_14px_36px_rgba(0,0,0,0.18)]
           "
-          
         >
           EXPLORE
         </a>
 
+        {/* Secondary CTA */}
         <a
           href="https://github.com/vmoreira-dev"
           target="_blank"
           rel="noopener noreferrer"
           className="
             px-6 py-3 rounded-xl
-            bg-white/70 backdrop-blur-md
-            border border-black/10
-            text-slate-800
+            bg-white
+            border border-slate-200
+            text-slate-600 text-sm tracking-wide
             transition-all duration-300
-            hover:bg-white
-            hover:border-black/20
             hover:text-slate-900
+            hover:border-slate-300
           "
         >
           GitHub
@@ -52,7 +53,7 @@ export default function Hero() {
       </div>
 
       {/* Tech icons */}
-      <div className="mt-10">
+      <div className="mt-10 opacity-80">
         <TechStack />
       </div>
     </section>
