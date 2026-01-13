@@ -16,9 +16,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 
   /* Ambient background image */
-  background-image: url("/textures/bg-offwhite-ambient.webp");
+  background-image: url("/textures/cool_silver.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
   background-attachment: fixed;
 }
+
