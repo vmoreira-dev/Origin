@@ -16,46 +16,47 @@ export default function Hero() {
 
       {/* Buttons */}
       <div className="mt-12 flex items-center gap-6">
-        {/* Primary CTA */}
-        <a
-          href="#projects"
-          className="
-            px-10 py-3 rounded-xl
-            bg-white
-            border border-slate-300
-            text-slate-900 text-sm font-medium tracking-wide
-            shadow-[0_1px_0_rgba(0,0,0,0.06)]
-            transition-all duration-300
-            hover:-translate-y-0.5
-            hover:shadow-[0_14px_36px_rgba(0,0,0,0.18)]
-          "
-        >
-          EXPLORE
-        </a>
+  {/* Primary CTA */}
+  <a
+    href="#projects"
+    className="
+      px-10 py-3 rounded-xl
+      bg-slate-900
+      text-white text-sm font-medium tracking-wide
+      shadow-[0_6px_20px_rgba(0,0,0,0.25)]
+      transition-all duration-300
+      hover:-translate-y-0.5
+      hover:shadow-[0_14px_36px_rgba(0,0,0,0.35)]
+    "
+  >
+    EXPLORE
+  </a>
 
-        {/* Secondary CTA */}
-        <a
-          href="https://github.com/vmoreira-dev"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="
-            px-6 py-3 rounded-xl
-            bg-white
-            border border-slate-200
-            text-slate-600 text-sm tracking-wide
-            transition-all duration-300
-            hover:text-slate-900
-            hover:border-slate-300
-          "
-        >
-          GitHub
-        </a>
-      </div>
+  {/* Secondary CTA */}
+  <a
+    href="https://github.com/vmoreira-dev"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      px-6 py-3 rounded-xl
+      border border-slate-300
+      text-slate-600 text-sm tracking-wide
+      transition-all duration-300
+      hover:border-slate-400
+      hover:text-slate-900
+    "
+  >
+    GitHub
+  </a>
+</div>
+
 
       {/* Tech icons */}
-      <div className="mt-10 opacity-80">
-        <TechStack />
-      </div>
+      <div className="mt-6 opacity-60">
+  <TechStack />
+</div>
+
+
     </section>
   );
 }
