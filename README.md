@@ -6,10 +6,9 @@
 
 ## Overview
 
-Origin is a personal portfolio built to present finished work.  
-Projects are displayed as complete systems, with focus on layout, spacing, and visual control.
+Origin is a portfolio for presenting finished projects as complete, self-contained systems.
 
-**[View](https://vmoreira.dev)**
+**[Live Demo](https://vmoreira.dev)**
 
 ---
 
@@ -25,10 +24,9 @@ Projects are displayed as complete systems, with focus on layout, spacing, and v
 
 ## Stack
 
-- Next.js (App Router)  
-- React  
-- TypeScript  
-- Tailwind CSS  
-- Framer Motion  
-- shadcn/ui  
-- Vercel
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+
