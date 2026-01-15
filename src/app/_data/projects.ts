@@ -2,7 +2,7 @@ export const projects = [
 
   {
     title: "Aether",
-    tagline: "Signal over noise",
+    tagline: "What time reveals",
     image: "/images/projects/aether.webp",
     href: "https://aether.vmoreira.dev",
   },
