@@ -8,7 +8,7 @@ export default function FeaturedProjects() {
       id="projects"
       className="
         scroll-mt-32
-        pt-32
+        pt-20
         pb-40
         flex flex-col
         gap-20

@@ -11,7 +11,7 @@ export default function Hero() {
 
       {/* Role */}
       <p className="mt-4 text-sm md:text-base tracking-[0.2em] text-slate-500">
-        FULL-STACK ENGINEER
+        SOFTWARE ENGINEER
       </p>
 
       {/* Buttons */}
