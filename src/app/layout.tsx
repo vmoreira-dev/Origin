@@ -13,8 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Origin",
+  description: "Portfolio",
   
+  icons: {
+    icon: "/favicon-gold.svg", // <-- gold project favicon
+  },
 };
 
 export default function RootLayout({
@@ -25,17 +29,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-  className={`
-    ${geistSans.variable}
-    ${geistMono.variable}
-    antialiased
-    bg-nebula 
-    min-h-screen
-  `}
->
-  {children}
-</body>
-
+        className={`
+          ${geistSans.variable}
+          ${geistMono.variable}
+          antialiased
+          bg-nebula
+          min-h-screen
+        `}
+      >
+        {children}
+      </body>
     </html>
   );
 }

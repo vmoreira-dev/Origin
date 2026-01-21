@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    :root { --ring:#fff; --core:#D4AF37
+
+; } /* only change --core */
+  </style>
+
+  <!-- ring -->
+  <circle cx="50" cy="50" r="46" fill="none" stroke="var(--ring)" stroke-width="6"/>
+
+  <!-- core mark (LOCKED GEOMETRY) -->
+  <path fill="var(--core)" d="M50 25 L68 75 L56 75 L50 53 L44 75 L32 75 Z"/>
+</svg>
