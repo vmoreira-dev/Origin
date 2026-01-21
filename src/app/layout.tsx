@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Origin",
-  description: "Portfolio",
+  description: "Origin — Software Engineer Portfolio",
   
   icons: {
     icon: "/favicon-gold.svg", // <-- gold project favicon
