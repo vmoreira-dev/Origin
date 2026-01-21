@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "Origin — Software Engineer Portfolio",
   
   icons: {
-    icon: "/favicon-gold.svg", // <-- gold project favicon
+    icon: "/favicon-origin.svg", // <-- gold project favicon
   },
 };
 
