@@ -5,7 +5,7 @@ function TechIcon({ src }: { src: string }) {
         inline-block
         h-8 w-8
         bg-neutral-600
-        hover:bg-[#C6A75E]
+        hover:bg-[#d3af37]
         transition-colors duration-200
       "
       style={{
